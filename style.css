@@ -1,5 +1,5 @@
 html {
-color: #b840b4;
+color: #b863b6;
 }
 ul {
 display: block;
@@ -53,6 +53,10 @@ font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed",
 p {
 font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
+subtitle{
+color: #ffa3fd;
+text-decoration: underline;
+}
 .banner{
 height: auto;
 width: 100vw;
@@ -75,19 +79,19 @@ font-weight: bolder;
 color: #008CC0;
 text-decoration: none;
 }
-.button {
-margin-top: 40px;
-margin-bottom: 40px;
+.content{
+display: block;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-left: 25%;
+margin-right: 25%;
+margin-bottom: 25px;
+box-shadow: 0px 1px 0px 0px rgba(255, 163, 253, 1);
 }
-.button a {
-font-size: large;
-padding: 20px;
-border-radius: 2px;
-text-decoration: none;
-}
-.button a:hover {
-color: #00AEEF;
-background-color: white;
+.content img{
+height: auto;
+margin: 25px;
+float: right;
 }
 .horizontal-list{
 align-content: center;
@@ -100,39 +104,4 @@ text-decoration: underline;
 .horizontal-list li{
 display: inline-block;
 padding-right: 3px;
-}
-.text-block {
-margin-bottom: 50px;
-margin-left: 0;
-margin-right: 0;
-padding-top: 50px;
-padding-bottom: 50px;
-padding-left: 100px;
-padding-right: 100px;
-background-color: white;
-color: black;
-}
-.text-block p {
-font-size: 32px;
-}
-.text-block a {
-background-color: #00AEEF;
-color: white;
-}
-.text-block.alt {
-background-color: #00AEEF;
-color: white;
-}
-.text-block.alt a {
-background-color: white;
-color: #00AEEF;
-}
-.text-block.alt a:hover {
-color: white;
-background-color: #00AEEF;
-transition: color 0.05s linear;
-transition: background 0.05s linear;
-}
-.text-block.alt h2 {
-color: white;
 }
