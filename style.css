@@ -57,6 +57,13 @@ subtitle{
 color: #ffa3fd;
 text-decoration: underline;
 }
+.arrow-divider{
+	text-align:center;
+	display:block;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	box-shadow: 5px 0px 0px 1px rgba(255, 163, 253, 1);
+}
 .banner{
 height: auto;
 width: 100vw;
