@@ -53,6 +53,11 @@ font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed",
 p {
 font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
+
+ul *{
+margin: 10px;
+}
+
 subtitle{
 color: #ffa3fd;
 text-decoration: underline;
@@ -112,4 +117,28 @@ text-decoration: underline;
 .horizontal-list li{
 display: inline-block;
 padding-right: 3px;
+}
+.outer-wrapper{
+	display: flex;
+	justify-content: center;
+}
+.wrapper {
+	display: flex;
+	width: 66%;
+	box-shadow: 1px 1px 25px 1px rgba(255, 163, 253, 1);
+}
+.box {
+	flex: 1;
+	float: left;
+	text-align: center;
+	width: 50%;
+	background: #242236;
+}
+.box li {
+	list-style: none;
+}
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
 }
