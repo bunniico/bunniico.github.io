@@ -1,5 +1,6 @@
 html {
 color: #b863b6;
+font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 ul {
 display: block;
@@ -20,47 +21,50 @@ padding-top: 10px;
 padding-bottom: 10px;
 text-align: center;
 font-size: medium;
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 box-shadow: 5px 0px 0px 1px rgba(255, 163, 253, 1);
 }
 nav {
 padding-top: 1px;
 padding-bottom: 1px;
 margin-top: 0px;
-font-size: small;
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+font-size: 1em;
 text-align: center;
 box-shadow: 0px 1px 0px 0px rgba(255, 163, 253, 1);
 }
 a {
 color: #ffa3fd;
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 
 h1 {
-font-size: 3em;
-color: #ffa3fd;
-margin-bottom: 0px;
-text-align: center;
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 3em;
+	color: #ffa3fd;
+	margin-bottom: 10px;
+	text-align: center;
 }
 h2 {
-color: #ffa3fd;
-font-size: 2em;
-margin: 0;
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: #ffa3fd;
+	font-size: 2em;
+	margin: 0;
+}
+h3
+{
+	color: #fcc2fb;
+	text-decoration: bold;
+	margin: 0;
+	font-size: 1em;
+	
 }
 p {
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 1em;
 }
 
 ul *{
-margin: 10px;
+	margin: 10px;
 }
 
 subtitle{
 color: #ffa3fd;
-text-decoration: underline;
+font-style: italic;
 }
 .arrow-divider{
 	text-align:center;
@@ -124,10 +128,17 @@ padding-right: 3px;
 }
 .wrapper {
 	display: flex;
-	width: 66%;
+	width: 50%;
 	box-shadow: 1px 1px 25px 1px rgba(255, 163, 253, 1);
 }
+.section-title
+{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
 .box {
+	padding: 25px;
 	flex: 1;
 	float: left;
 	text-align: center;
