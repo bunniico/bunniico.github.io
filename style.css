@@ -1,6 +1,6 @@
 html {
 color: #b863b6;
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 color-scheme: dark;
 }
 ul {
@@ -115,8 +115,9 @@ align-content: center;
 list-style: none;
 }
 .horizontal-list a{
-color: #ffa3fd;
-text-decoration: underline;
+    color: #ffa3fd;
+    text-decoration: underline;
+
 }
 .horizontal-list li{
 display: inline-block;
