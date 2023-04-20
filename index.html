@@ -17,7 +17,16 @@
 <div class="outer-wrapper">
 	"<subtitle id="flavor" style="text-align: center; text-decoration: italic;"></subtitle>"
 <script type="text/javascript">
-	const texts = ["milk", "Hi Bailey", "Hi Janelle", "Hi Mom", "Hi Dad", "Hi World", "#1 not-a-furry", "that monkey funky"]; // Array of texts
+	const texts = [
+		"milk", "Hi Bailey", "Hi Janelle", "Hi Mom",
+		"Hi Dad", "Hi World", "I am NOT a furry", "that monkey funky",
+		"Go to the zoo.", "Eat Cucumbers", "Become furry", "you should get a better gaming chair",
+		"got better yet?", "mad because bad?", "skill issue 🙄", "uwu owo", "go do your homework",
+		"MY CABBAGES!", "insert text here", "one of the websites of all time",
+		"you have GAY", "WOMEN!!!!", "woman kisser 🫵", "MEN!!!!!",
+		"do you or a love one suffer from big sad?", "socks", "plushies are adorable",
+		"JCSJAHIUJH BAODBN PIBNDOA BN sorry cat was on my keyboard", "kitty!"
+	]; // Array of texts
 	const randomIndex = Math.floor(Math.random() * texts.length); // Generate a random index from the array
 	const subtitle = document.getElementById("flavor"); // Get the subtitle element by ID
 	subtitle.textContent = texts[randomIndex]; // Set the subtitle text to the randomly selected text from the array
