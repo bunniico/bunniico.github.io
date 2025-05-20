@@ -2,3 +2,7 @@ baseURL = 'https://bunniico.github.io/'
 languageCode = 'en-us'
 title = 'bunniico'
 theme = 'hugo-discaptive'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
