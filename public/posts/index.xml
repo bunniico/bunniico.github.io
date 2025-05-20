@@ -6,7 +6,14 @@
     <description>Recent content in Posts on bunniico</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Tue, 20 May 2025 02:20:20 -0500</lastBuildDate>
     <atom:link href="https://bunniico.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://bunniico.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 20 May 2025 02:20:20 -0500</pubDate>
+      <guid>https://bunniico.github.io/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;hello&#34;&gt;Hello!&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my website. It is currently under construction.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
