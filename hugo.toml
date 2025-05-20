@@ -1,7 +1,7 @@
 baseURL = 'https://bunniico.github.io/'
 languageCode = 'en-us'
-title = 'bunniico'
-theme = 'hugo-discaptive'
+title = 'bunniico.github.io'
+theme = 'hugo-book'
 
 [caches]
   [caches.images]

@@ -1,3 +1,6 @@
 [submodule "quickstart/themes/hugo-discaptive"]
 	path = quickstart/themes/hugo-discaptive
 	url = https://github.com/discaptive/hugo-discaptive.git
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
