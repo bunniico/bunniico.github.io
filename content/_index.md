@@ -5,4 +5,5 @@ title = 'Welcome! 🐰🔎🌏🔥'
 +++
 
 # Welcome to my site!
-[link](/site/content/posts/my-first-post.md "Test!")
+---
+[hello world post](/posts/my-first-post/ "Test!")
