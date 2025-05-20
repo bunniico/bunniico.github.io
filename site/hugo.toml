@@ -1,0 +1,4 @@
+baseURL = 'https://bunniico.github.io/'
+languageCode = 'en-us'
+title = 'bunniico'
+theme = 'hugo-discaptive'

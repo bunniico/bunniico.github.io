@@ -1,0 +1,307 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr"
+  class="scroll-smooth"
+>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+
+
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="index, follow" />
+<meta
+  name="googlebot"
+  content="index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"
+/>
+
+<meta name="description" content="Requirements
+
+Hugo
+Git
+
+Create a site
+
+Verify installation: hugo version
+Create a Hugo site with the Ananke theme.
+
+hugo new site quickstart
+cd quickstart
+git init
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml
+hugo server
+hugo new site quickstart - Initializes hugo directory in &lsquo;quickstart&rsquo;
+cd quickstart - Change directory to &lsquo;quickstart&rsquo;
+git init - Initialize git repo in current dir.
+git submodule add ... - Clones the theme into the themes directory as a git submodule
+echo &quot;theme = &#39;ananke&#39;&quot; &gt;&gt; hugo.toml - Sets the theme in the config file" />
+
+
+<meta property="og:title" content="Quick Start" />
+<meta property="og:description" content="Requirements
+
+Hugo
+Git
+
+Create a site
+
+Verify installation: hugo version
+Create a Hugo site with the Ananke theme.
+
+hugo new site quickstart
+cd quickstart
+git init
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml
+hugo server
+hugo new site quickstart - Initializes hugo directory in &lsquo;quickstart&rsquo;
+cd quickstart - Change directory to &lsquo;quickstart&rsquo;
+git init - Initialize git repo in current dir.
+git submodule add ... - Clones the theme into the themes directory as a git submodule
+echo &quot;theme = &#39;ananke&#39;&quot; &gt;&gt; hugo.toml - Sets the theme in the config file" />
+<meta property="og:url" content="http://localhost:1313/posts/my-first-post/" />
+<meta property="og:site_name" content="bunniico" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://localhost:1313/images/og-image.png" />
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Quick Start" />
+<meta name="twitter:description" content="Requirements
+
+Hugo
+Git
+
+Create a site
+
+Verify installation: hugo version
+Create a Hugo site with the Ananke theme.
+
+hugo new site quickstart
+cd quickstart
+git init
+git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml
+hugo server
+hugo new site quickstart - Initializes hugo directory in &lsquo;quickstart&rsquo;
+cd quickstart - Change directory to &lsquo;quickstart&rsquo;
+git init - Initialize git repo in current dir.
+git submodule add ... - Clones the theme into the themes directory as a git submodule
+echo &quot;theme = &#39;ananke&#39;&quot; &gt;&gt; hugo.toml - Sets the theme in the config file" />
+<meta name="twitter:image" content="http://localhost:1313/images/og-image.png" />
+
+<title>Quick Start</title>
+
+    <link rel="stylesheet" href="/css/output.css" />
+
+
+  </head>
+  <body class="bg-white text-black antialiased">
+    <section class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+      <div class="flex h-screen flex-col justify-between font-sans">
+        <header
+          class="flex items-center w-full bg-white justify-between py-10 sticky top-0 z-50"
+        >
+          <a class="group break-words" aria-label="bunniico" href="/">
+  <div class="flex items-center justify-between">
+    <div class="sm:mr-3">
+      <img src="/images/logo.svg" width="32" height="32" alt="Logo Image" />
+    </div>
+
+    <div class="hidden text-2xl font-semibold sm:block group-hover:underline">
+      <span>bunniico</span>
+    </div>
+  </div>
+</a>
+
+<div class="flex items-center space-x-4 leading-5 sm:space-x-6">
+  <div class="items-center space-x-4 overflow-x-auto flex sm:space-x-6">
+    
+    <a href="" target="_blank">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        class="fill-[#24292F] hover:fill-indigo-500 h-6 w-6"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M12.0099 0C5.36875 0 0 5.5 0 12.3042C0 17.7432 3.43994 22.3472 8.21205 23.9767C8.80869 24.0992 9.02724 23.712 9.02724 23.3862C9.02724 23.101 9.00757 22.1232 9.00757 21.1045C5.6667 21.838 4.97099 19.6378 4.97099 19.6378C4.43409 18.2118 3.63858 17.8452 3.63858 17.8452C2.54511 17.0915 3.71823 17.0915 3.71823 17.0915C4.93117 17.173 5.56763 18.3545 5.56763 18.3545C6.64118 20.2285 8.37111 19.699 9.06706 19.373C9.16638 18.5785 9.48473 18.0285 9.82275 17.723C7.15817 17.4377 4.35469 16.3785 4.35469 11.6523C4.35469 10.3078 4.8316 9.20775 5.58729 8.35225C5.46807 8.04675 5.0504 6.7835 5.70677 5.09275C5.70677 5.09275 6.72083 4.76675 9.00732 6.35575C9.98625 6.08642 10.9958 5.9494 12.0099 5.94825C13.024 5.94825 14.0577 6.091 15.0123 6.35575C17.299 4.76675 18.3131 5.09275 18.3131 5.09275C18.9695 6.7835 18.5515 8.04675 18.4323 8.35225C19.2079 9.20775 19.6652 10.3078 19.6652 11.6523C19.6652 16.3785 16.8617 17.4172 14.1772 17.723C14.6148 18.11 14.9924 18.8433 14.9924 20.0045C14.9924 21.6545 14.9727 22.9788 14.9727 23.386C14.9727 23.712 15.1915 24.0992 15.7879 23.977C20.56 22.347 23.9999 17.7432 23.9999 12.3042C24.0196 5.5 18.6312 0 12.0099 0Z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+
+        </header>
+        <main class="mb-auto">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Quick Start",
+      "datePublished": "2025-05-20T02:20:20-05:00",
+      "dateModified": "2025-05-20T02:20:20-05:00",
+      "description": "\u003ch1 id=\u0022requirements\u0022\u003eRequirements\u003c\/h1\u003e\n\u003col\u003e\n\u003cli\u003eHugo\u003c\/li\u003e\n\u003cli\u003eGit\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003ch1 id=\u0022create-a-site\u0022\u003eCreate a site\u003c\/h1\u003e\n\u003col\u003e\n\u003cli\u003eVerify installation: \u003ccode\u003ehugo version\u003c\/code\u003e\u003c\/li\u003e\n\u003cli\u003eCreate a Hugo site with the Ananke theme.\u003c\/li\u003e\n\u003c\/ol\u003e\n\u003cdiv class=\u0022highlight\u0022\u003e\u003cpre tabindex=\u00220\u0022 style=\u0022color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;\u0022\u003e\u003ccode class=\u0022language-ps\u0022 data-lang=\u0022ps\u0022\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#a6e22e\u0022\u003ehugo\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003enew\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003esite\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003equickstart\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#a6e22e\u0022\u003ecd\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003equickstart\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#a6e22e\u0022\u003egit\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003einit\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#a6e22e\u0022\u003egit\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003esubmodule\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003eadd\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003ehttps:\u003c\/span\u003e\u003cspan style=\u0022color:#960050;background-color:#1e0010\u0022\u003e\/\u003c\/span\u003e\/github.com\/theNewDynamic\/gohugo-theme-ananke.git \u003cspan style=\u0022color:#a6e22e\u0022\u003ethemes\u003c\/span\u003e\/ananke\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#a6e22e\u0022\u003eecho\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003e\u0026#34;theme\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003e=\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003e\u0026#39;ananke\u0026#39;\u0026#34;\u003c\/span\u003e \u0026gt;\u0026gt; \u003cspan style=\u0022color:#a6e22e\u0022\u003ehugo.toml\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003cspan style=\u0022display:flex;\u0022\u003e\u003cspan\u003e\u003cspan style=\u0022color:#a6e22e\u0022\u003ehugo\u003c\/span\u003e \u003cspan style=\u0022color:#a6e22e\u0022\u003eserver\u003c\/span\u003e\n\u003c\/span\u003e\u003c\/span\u003e\u003c\/code\u003e\u003c\/pre\u003e\u003c\/div\u003e\u003cp\u003e\u003ccode\u003ehugo new site quickstart\u003c\/code\u003e - Initializes hugo directory in \u0026lsquo;quickstart\u0026rsquo;\u003c\/p\u003e\n\u003cp\u003e\u003ccode\u003ecd quickstart\u003c\/code\u003e - Change directory to \u0026lsquo;quickstart\u0026rsquo;\u003c\/p\u003e\n\u003cp\u003e\u003ccode\u003egit init\u003c\/code\u003e - Initialize git repo in current dir.\u003c\/p\u003e\n\u003cp\u003e\u003ccode\u003egit submodule add ...\u003c\/code\u003e - Clones the theme into the themes directory as a git submodule\u003c\/p\u003e\n\u003cp\u003e\u003ccode\u003eecho \u0026quot;theme = \u0027ananke\u0027\u0026quot; \u0026gt;\u0026gt; hugo.toml\u003c\/code\u003e - Sets the theme in the config file\u003c\/p\u003e",
+      "image": "/images/og-image.png",
+      "url": "http:\/\/localhost:1313\/posts\/my-first-post\/",
+      "author": [{ "@type": "Person", "name": "" }]
+    }
+  </script>
+  <section class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+    <article>
+      <div class="xl:divide-y xl:divide-gray-200">
+        <header class="pt-6 xl:pb-6">
+          <div class="space-y-1 text-center">
+            <dl class="space-y-10">
+              <div>
+                <dt class="sr-only">Published on</dt>
+                <dd class="text-base font-medium leading-6 text-gray-500">
+                  
+                  
+                  <time datetime="2025-05-20T02:20:20-05:00">Tuesday, May 20, 2025</time>
+                </dd>
+              </div>
+            </dl>
+            <div>
+              <h1
+                class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14"
+              >
+                <div>Quick Start</div>
+              </h1>
+            </div>
+          </div>
+        </header>
+
+        <div
+          class="grid-rows-[auto_1fr] divide-y divide-gray-200 pb-8 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0"
+        >
+          <dl class="pb-10 pt-6 xl:border-b xl:border-gray-200 xl:pt-11">
+            <dt class="sr-only">Authors</dt>
+            <dd>
+              <ul
+                class="flex flex-wrap justify-center gap-4 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8"
+              >
+                <li class="flex items-center space-x-2">
+                  <img
+                    src=".png"
+                    class="rounded-full"
+                    width="38"
+                    height="38"
+                    alt="Profile Image"
+                    loading="lazy"
+                  />
+                  <dl class="whitespace-nowrap text-sm font-medium leading-5">
+                    <dt class="sr-only">Name</dt>
+                    <dd class="text-gray-900"></dd>
+                  </dl>
+                </li>
+              </ul>
+            </dd>
+          </dl>
+
+          <div
+            class="divide-y divide-gray-200 xl:col-span-3 xl:row-span-2 xl:pb-0"
+          >
+            <div class="prose max-w-none pb-8 pt-10">
+              <details open>
+                <summary class="ml-6 pb-2 pt-2 text-xl font-bold">
+                  <span>Table of Contents</span>
+                </summary>
+
+                <nav class="ml-6">
+                    <ul>
+                    </ul>
+                    <ul>
+                    </ul>
+                    <ul>
+                    </ul>
+                </nav>
+              </details>
+
+              <h1 id="requirements">Requirements</h1>
+<ol>
+<li>Hugo</li>
+<li>Git</li>
+</ol>
+<h1 id="create-a-site">Create a site</h1>
+<ol>
+<li>Verify installation: <code>hugo version</code></li>
+<li>Create a Hugo site with the Ananke theme.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ps" data-lang="ps"><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">site</span> <span style="color:#a6e22e">quickstart</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">cd</span> <span style="color:#a6e22e">quickstart</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">init</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">git</span> <span style="color:#a6e22e">submodule</span> <span style="color:#a6e22e">add</span> <span style="color:#a6e22e">https:</span><span style="color:#960050;background-color:#1e0010">/</span>/github.com/theNewDynamic/gohugo-theme-ananke.git <span style="color:#a6e22e">themes</span>/ananke
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">echo</span> <span style="color:#a6e22e">&#34;theme</span> <span style="color:#a6e22e">=</span> <span style="color:#a6e22e">&#39;ananke&#39;&#34;</span> &gt;&gt; <span style="color:#a6e22e">hugo.toml</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">hugo</span> <span style="color:#a6e22e">server</span>
+</span></span></code></pre></div><p><code>hugo new site quickstart</code> - Initializes hugo directory in &lsquo;quickstart&rsquo;</p>
+<p><code>cd quickstart</code> - Change directory to &lsquo;quickstart&rsquo;</p>
+<p><code>git init</code> - Initialize git repo in current dir.</p>
+<p><code>git submodule add ...</code> - Clones the theme into the themes directory as a git submodule</p>
+<p><code>echo &quot;theme = 'ananke'&quot; &gt;&gt; hugo.toml</code> - Sets the theme in the config file</p>
+<p><code>hugo server</code> - Starts the dev. server</p>
+<h1 id="add-content-to-the-site">Add content to the site</h1>
+<p><code>hugo new content content/posts/my-first-post.md</code>
+Creates a new file in <code>content/posts</code></p>
+<p>Notice that <code>draft</code> in the [[Front matter]] is <code>true</code>, this means that the post will be generated as a draft and not published.</p>
+<p>Add some [[Markdown]] to the body of the post, but do not change the <code>draft</code> value.</p>
+
+            </div>
+          </div>
+
+          <footer>
+            <div
+              class="divide-gray-200 text-sm font-medium leading-5 xl:col-start-1 xl:row-start-2 xl:divide-y"
+            >
+              <div class="py-4 xl:py-8">
+                <h2 class="text-xs uppercase tracking-wide text-gray-500">
+                  Tags
+                </h2>
+                <div class="flex flex-wrap">
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="pt-4 xl:pt-8">
+              <a
+                class="text-indigo-500 hover:text-indigo-600"
+                aria-label="Back to the list"
+                href="/"
+                >← Back to the list</a
+              >
+            </div>
+          </footer>
+        </div>
+      </div>
+    </article>
+  </section>
+</main>
+        <footer><div class="mt-16 flex flex-col items-center">
+  <div class="mb-2 text-sm text-gray-500">
+    <span>(C) 2025. bunniico all rights reserved.</span>
+  </div>
+
+  <div class="mb-8 text-sm text-gray-500">
+    <span class="mr-1">Built with</span>
+    <a
+      class="font-semibold underline"
+      href="https://github.com/discaptive/hugo-discaptive"
+      target="_blank"
+      >hugo-discaptive</a
+    >
+  </div>
+</div>
+</footer>
+      </div>
+    </section>
+  </body>
+</html>
