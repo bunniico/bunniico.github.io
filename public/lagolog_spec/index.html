@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="from: [[Visual Novel Engine]]
-Unofficial name: &ldquo;Lagolog&rdquo; (.ll)
+<meta name="description" content="Unofficial name: &ldquo;Lagolog&rdquo; (.ll)
 
-  Dialogue
+  Lagolog
   #
 
 
@@ -71,23 +70,22 @@ Automatically skips to the next dialogue message after a certain amount of time 
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
 <meta name="color-scheme" content="light dark"><meta property="og:url" content="https://bunniico.github.io/lagolog_spec/">
   <meta property="og:site_name" content="bunniico.github.io">
-  <meta property="og:title" content="Lagolog_spec">
-  <meta property="og:description" content="from: [[Visual Novel Engine]]
-Unofficial name: “Lagolog” (.ll)
-Dialogue#Speech:#SPEAKER_A: &#34;MESSAGE&#34;; SPEAKER_B: &#34;ANOTHER MESSAGE&#34;; Sounds#Note: Command that begin with “WITH” will be interpreted in parallel with the next dialogue message.
+  <meta property="og:title" content="Lagolog">
+  <meta property="og:description" content="Unofficial name: “Lagolog” (.ll)
+Lagolog#Speech:#SPEAKER_A: &#34;MESSAGE&#34;; SPEAKER_B: &#34;ANOTHER MESSAGE&#34;; Sounds#Note: Command that begin with “WITH” will be interpreted in parallel with the next dialogue message.
 WITH SOUND: &#34;SOUND_ID&#34;; Custom Callbacks#Note: Command that begin with “WITH” will be interpreted in parallel with the next dialogue message.
 WITH CALLBACK: &#34;CALLBACK_ID&#34;; Visuals#Sprite Management#Set Character Emotion#WITH CHAR &#34;CHAR_ID&#34; &#34;EMOTE_ID&#34;; Show CG#WITH CG: &#34;CG_ID&#34;; Note: Only one (1) CG can be shown at once Hide CG#WITH EXIT CG; Misc.#Comments#// This is a comment // Auto#Automatically skips to the next dialogue message after a certain amount of time as defined in the configuration.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:published_time" content="2025-05-21T04:33:39-05:00">
     <meta property="article:modified_time" content="2025-05-21T04:33:39-05:00">
-<title>Lagolog_spec | bunniico.github.io</title>
+<title>Lagolog | bunniico.github.io</title>
 <link rel="icon" href="/favicon.png" >
 <link rel="manifest" href="/manifest.json">
 <link rel="canonical" href="https://bunniico.github.io/lagolog_spec/">
 <link rel="stylesheet" href="/book.min.a7616cf2799b58bddffce9438e31fdbfc6393687cfc0950a4a17cd1cce7e35f6.css" integrity="sha256-p2Fs8nmbWL3f/OlDjjH9v8Y5NofPwJUKShfNHM5&#43;NfY=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.e569e37b548245fcd784a5cbb590dabd8831dc6fedb03e87f4c059729547288b.js" integrity="sha256-5Wnje1SCRfzXhKXLtZDavYgx3G/tsD6H9MBZcpVHKIs=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.c371142908ba56043785d69d19ad32f7209d822e9d3ca477c91c4b15126ee007.js" integrity="sha256-w3EUKQi6VgQ3hdadGa0y9yCdgi6dPKR3yRxLFRJu4Ac=" crossorigin="anonymous"></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -161,7 +159,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <h3>Lagolog_spec</h3>
+  <h3>Lagolog</h3>
 
   <label for="toc-control">
     
@@ -177,24 +175,24 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#speech">Speech:</a></li>
-    <li><a href="#sounds">Sounds</a></li>
-    <li><a href="#custom-callbacks">Custom Callbacks</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#sprite-management">Sprite Management</a>
+    <li><a href="#lagolog">Lagolog</a>
       <ul>
-        <li><a href="#set-character-emotion">Set Character Emotion</a></li>
-        <li><a href="#show-cg">Show CG</a></li>
-        <li><a href="#hide-cg">Hide CG</a></li>
+        <li><a href="#speech">Speech:</a></li>
+        <li><a href="#sounds">Sounds</a></li>
+        <li><a href="#custom-callbacks">Custom Callbacks</a></li>
       </ul>
     </li>
-  </ul>
-
-  <ul>
-    <li><a href="#comments">Comments</a></li>
-    <li><a href="#auto">Auto</a></li>
+    <li><a href="#visuals">Visuals</a>
+      <ul>
+        <li><a href="#sprite-management">Sprite Management</a></li>
+      </ul>
+    </li>
+    <li><a href="#misc">Misc.</a>
+      <ul>
+        <li><a href="#comments">Comments</a></li>
+        <li><a href="#auto">Auto</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -207,69 +205,68 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown book-article"><p>from: [[Visual Novel Engine]]</p>
-<p>Unofficial name: &ldquo;Lagolog&rdquo; (.ll)</p>
-<h1 id="dialogue">
-  Dialogue
-  <a class="anchor" href="#dialogue">#</a>
-</h1>
-<h2 id="speech">
+  <article class="markdown book-article"><p>Unofficial name: &ldquo;Lagolog&rdquo; (.ll)</p>
+<h2 id="lagolog">
+  Lagolog
+  <a class="anchor" href="#lagolog">#</a>
+</h2>
+<h3 id="speech">
   Speech:
   <a class="anchor" href="#speech">#</a>
-</h2>
+</h3>
 <pre tabindex="0"><code>SPEAKER_A: &#34;MESSAGE&#34;;
 SPEAKER_B: &#34;ANOTHER MESSAGE&#34;;
-</code></pre><h2 id="sounds">
+</code></pre><h3 id="sounds">
   Sounds
   <a class="anchor" href="#sounds">#</a>
-</h2>
+</h3>
 <p>Note: Command that begin with &ldquo;WITH&rdquo; will be interpreted in parallel with the next dialogue message.</p>
 <pre tabindex="0"><code>WITH SOUND: &#34;SOUND_ID&#34;;
-</code></pre><h2 id="custom-callbacks">
+</code></pre><h3 id="custom-callbacks">
   Custom Callbacks
   <a class="anchor" href="#custom-callbacks">#</a>
-</h2>
+</h3>
 <p>Note: Command that begin with &ldquo;WITH&rdquo; will be interpreted in parallel with the next dialogue message.</p>
 <pre tabindex="0"><code>WITH CALLBACK: &#34;CALLBACK_ID&#34;;
-</code></pre><h1 id="visuals">
+</code></pre><h2 id="visuals">
   Visuals
   <a class="anchor" href="#visuals">#</a>
-</h1>
-<h2 id="sprite-management">
+</h2>
+<h3 id="sprite-management">
   Sprite Management
   <a class="anchor" href="#sprite-management">#</a>
-</h2>
-<h3 id="set-character-emotion">
+</h3>
+<h4 id="set-character-emotion">
   Set Character Emotion
   <a class="anchor" href="#set-character-emotion">#</a>
-</h3>
+</h4>
 <pre tabindex="0"><code>WITH CHAR &#34;CHAR_ID&#34; &#34;EMOTE_ID&#34;;
-</code></pre><h3 id="show-cg">
+</code></pre><h4 id="show-cg">
   Show CG
   <a class="anchor" href="#show-cg">#</a>
-</h3>
+</h4>
 <pre tabindex="0"><code>WITH CG: &#34;CG_ID&#34;;
 </code></pre><ul>
 <li>Note: Only one (1) CG can be shown at once</li>
 </ul>
-<h3 id="hide-cg">
+<h4 id="hide-cg">
   Hide CG
   <a class="anchor" href="#hide-cg">#</a>
-</h3>
+</h4>
 <pre tabindex="0"><code>WITH EXIT CG;
-</code></pre><h1 id="misc">
+</code></pre><h2 id="misc">
   Misc.
   <a class="anchor" href="#misc">#</a>
-</h1>
-<h2 id="comments">
+</h2>
+<h3 id="comments">
   Comments
   <a class="anchor" href="#comments">#</a>
-</h2>
+</h3>
 <pre tabindex="0"><code>// This is a comment //
-</code></pre><h2 id="auto">
+</code></pre><h3 id="auto">
   Auto
   <a class="anchor" href="#auto">#</a>
-</h2>
+</h3>
 <p>Automatically skips to the next dialogue message after a certain amount of time as defined in the configuration.</p>
 <pre tabindex="0"><code>WITH INTERRUPT;
 </code></pre></article>
@@ -313,24 +310,24 @@ SPEAKER_B: &#34;ANOTHER MESSAGE&#34;;
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#speech">Speech:</a></li>
-    <li><a href="#sounds">Sounds</a></li>
-    <li><a href="#custom-callbacks">Custom Callbacks</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#sprite-management">Sprite Management</a>
+    <li><a href="#lagolog">Lagolog</a>
       <ul>
-        <li><a href="#set-character-emotion">Set Character Emotion</a></li>
-        <li><a href="#show-cg">Show CG</a></li>
-        <li><a href="#hide-cg">Hide CG</a></li>
+        <li><a href="#speech">Speech:</a></li>
+        <li><a href="#sounds">Sounds</a></li>
+        <li><a href="#custom-callbacks">Custom Callbacks</a></li>
       </ul>
     </li>
-  </ul>
-
-  <ul>
-    <li><a href="#comments">Comments</a></li>
-    <li><a href="#auto">Auto</a></li>
+    <li><a href="#visuals">Visuals</a>
+      <ul>
+        <li><a href="#sprite-management">Sprite Management</a></li>
+      </ul>
+    </li>
+    <li><a href="#misc">Misc.</a>
+      <ul>
+        <li><a href="#comments">Comments</a></li>
+        <li><a href="#auto">Auto</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
