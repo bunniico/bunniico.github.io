@@ -6,8 +6,15 @@
     <description>Recent content in Welcome! 🐰🔎🌏🔥 on bunniico.github.io</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 May 2025 04:33:39 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 21 May 2025 15:05:37 -0500</lastBuildDate>
     <atom:link href="https://bunniico.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lagolog; Test case</title>
+      <link>https://bunniico.github.io/lltestcase/</link>
+      <pubDate>Wed, 21 May 2025 15:05:37 -0500</pubDate>
+      <guid>https://bunniico.github.io/lltestcase/</guid>
+      <description>&lt;h1 id=&#34;test-dialogue&#34;&gt;&#xD;&#xA;  Test dialogue&#xD;&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#test-dialogue&#34;&gt;#&lt;/a&gt;&#xD;&#xA;&lt;/h1&gt;&#xD;&#xA;&lt;p&gt;The script seen below is a test case for the &lt;a href=&#34;%22https://bunniico.github.io/lagolog_spec/%22&#34;&gt;Lagolog&lt;/a&gt; specification.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;// This is a test dialogue&#xA;// Here we go:&#xA;&#xA;SPEAKER_A: &amp;#34;Hello, world!&amp;#34;;&#xA;SPEAKER_B: &amp;#34;Hello, SPEAKER_A!&amp;#34;;&#xA;&#xA;SPEAKER_A: &amp;#34;Do you hear that?&amp;#34;;&#xA;&#xA;WITH SOUND: &amp;#34;CRASH&amp;#34;;&#xA;WITH CHAR &amp;#34;SPEAKER_B&amp;#34; &amp;#34;CURIOUS&amp;#34;;&#xA;SPEAKER_B: &amp;#34;Hear w-&amp;#34;;&#xA;&#xA;WITH CHAR &amp;#34;SPEAKER_B&amp;#34; &amp;#34;SHOCKED&amp;#34;;&#xA;WITH CALLBACK: &amp;#34;BIG_SCREENSHAKE&amp;#34;;&#xA;WITH INTERRUPT;&#xA;SPEAKER_B: &amp;#34;Whoa!!&amp;#34;;&#xA;SPEAKER_B: &amp;#34;...&amp;#34;;&#xA;SPEAKER_B: &amp;#34;W-what is that?!&amp;#34;;&#xA;&#xA;WITH CG: &amp;#34;FULLY_RENDERED_12FT_PAINTING_OF_BILLIE_EILISH&amp;#34;&#xA;WITH CHAR &amp;#34;SPEAKER_B&amp;#34; &amp;#34;CONFUSED&amp;#34;;&#xA;SPEAKER_B: &amp;#34;Billie Eilish?&amp;#34;;&#xA;&#xA;WITH EXIT CG;&#xA;SPEAKER_B: &amp;#34;...&amp;#34;;&#xA;&#xA;SPEAKER_A: &amp;#34;...&amp;#34;;&#xA;&#xA;FULLY_RENDERED_12FT_PAINTING_OF_BILLIE_EILISH: &amp;#34;...&amp;#34;;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
     <item>
       <title>Lagolog</title>
       <link>https://bunniico.github.io/lagolog_spec/</link>
