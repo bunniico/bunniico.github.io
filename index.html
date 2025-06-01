@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HabitVault - Daily Habit Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>HabitVault</h1>
+        <button id="darkModeToggle" title="Toggle Dark Mode">🌙</button>
+    </header>
+
+    <section class="quote-section">
+        <blockquote id="dailyQuote">Loading motivational quote...</blockquote>
+    </section>
+
+    <section class="habit-input-section">
+        <h2>Add New Habit</h2>
+        <form id="habitForm">
+            <input type="text" id="habitName" placeholder="Habit name (e.g. Drink 2L water)" required />
+            <select id="targetDays" required>
+        <option value="" disabled selected>Target Days</option>
+        <option value="everyday">Every Day</option>
+        <option value="weekdays">Weekdays</option>
+        <option value="custom">Custom (pick days later)</option>
+      </select>
+            <input type="date" id="startDate" required />
+            <button type="submit">Add Habit</button>
+        </form>
+    </section>
+
+    <section class="filter-sort-section">
+        <label for="sortSelect">Sort habits by:</label>
+        <select id="sortSelect">
+      <option value="name">Name (A-Z)</option>
+      <option value="currentStreak">Current Streak (desc)</option>
+      <option value="longestStreak">Longest Streak (desc)</option>
+    </select>
+    </section>
+
+    <section id="habitsContainer" class="habits-container">
+        <!-- Habit cards go here -->
+    </section>
+
+    <section class="heatmap-section">
+        <h2>Habit Check-In Heatmap</h2>
+        <div id="heatmap"></div>
+    </section>
+
+    <footer>
+        <small>HabitVault &copy; 2025</small>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
